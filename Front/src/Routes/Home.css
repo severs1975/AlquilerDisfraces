@@ -1,0 +1,47 @@
+.home {
+  font-family: Calibri, sans-serif;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #F6E8ED;
+  flex-direction: column;
+}
+
+.home section{
+  padding: 20px 0px;
+}
+
+.home div {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.home h2,h3,p {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+.home input{
+  color: black;
+  background-color: white;
+  border: solid 1px gray;
+  height: 40px;
+  border-radius: 10px;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+.recomendado {
+  background-color: white;
+}
+
+.categorias {
+  border-top: solid 3px rgba(45, 45, 0);
+  border-bottom: solid 3px rgba(45, 45, 0);
+  background-color: whitesmoke;
+}

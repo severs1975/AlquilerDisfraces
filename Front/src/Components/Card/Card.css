@@ -1,0 +1,72 @@
+.card {
+  background-color: white;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+  border:1px solid #ccc;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+  transition: transform 0.5s;
+  text-decoration: none;
+  color: black;
+}
+
+
+.card:hover {
+  cursor: pointer;
+  transform: scale(1.08);
+}
+
+.imageContent{
+  margin:5px;
+  align-items: center;
+  width: 250px;
+  height: 25vh;
+  background-color: white;
+  overflow: hidden; /* Esto asegura que si la imagen es más grande, no desborde el contenedor */
+}
+
+.imageContent img{
+  height: 80%; /* Ajusta la altura de la imagen al 100% de la altura del contenedor */
+  width: auto; /* Mantén la proporción de la imagen */
+}
+
+
+.card-content {
+
+  width: 200px;
+  padding: 16px;
+}
+
+.card-content h2 {
+  text-align: center;
+  margin-top: 0;
+  height: 30%;
+}
+
+.card-content p {
+  margin-bottom: 8px;
+  width: auto;
+  height: 30%;
+
+}
+
+.detail-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 15px;
+  background-color: rgba(45, 45, 45);
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 20px; /* Ajusta el valor según sea necesario */
+  cursor: pointer;
+  width: 80px;
+}
+
+.detail-button:hover {
+  background-color: gray; /* Cambia el color al pasar el ratón sobre el botón */
+}

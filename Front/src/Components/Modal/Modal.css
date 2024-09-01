@@ -1,0 +1,65 @@
+.modal {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 30% !important;
+    height: 100%;
+    overflow: auto;
+    background-color: #ccc !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc; /* Añade un borde de 1px sólido con color gris claro */
+  }
+  
+  .modal-content {
+    background-color: #ccc !important;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px; /* Limitar el ancho máximo */
+    text-align: center;
+    box-sizing: border-box;
+
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px; /* Espacio debajo del título */
+  }
+  
+  p {
+    margin: 10px 0; /* Margen entre párrafos */
+  }
+  
+  .confirm-button {
+    background-color: rgba(45, 45, 45) !important;
+    color: white !important;
+    padding: 15px 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;
+    width: 40%; /* Botón de ancho completo */
+    height: 50px;
+  }
+  
+  .confirm-button:hover {
+    background-color: yellow !important;
+    color: black !important
+  }

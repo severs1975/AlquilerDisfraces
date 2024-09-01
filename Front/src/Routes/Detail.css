@@ -1,0 +1,76 @@
+.Detail {
+  height: 100%;
+  width: 100vp;
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0px;
+  background-color: white;
+  color: black;
+}
+
+.Detail-imgContent {
+  width: 30vw;
+  height: 60vh; /* Altura del 80% del viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border: solid 1px white;
+}
+
+.Detail-imgContent img {
+  height: 90%; /* Ajusta la altura de la imagen al 100% de la altura del contenedor */
+  width: auto; /* Mantén la proporción de la imagen */
+  object-fit: contain;
+}
+
+.Detail-textContent {
+  width: 20vw;
+  height: 60vh; /* Altura del 80% del viewport */
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border: solid 1px white ;
+}
+
+.Detail-textContent a {
+  color: white;
+}
+
+.Detail-textContent p {
+  text-align: left;
+}
+
+.detailCalendarDiv{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+
+}
+
+.Detail-calendar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 50vh;
+  float: right; /* Alinea el calendario a la derecha */
+  margin-left: 20px; /* Añade un margen izquierdo para separar el calendario del contenido */
+}
+
+.Reserva-button {
+  background-color: yellow;
+  color: black;
+  border: none;
+  border: 20px solid white; 
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: auto !important;;
+}
+
+.Reserva-button:hover {
+  background-color: yellowgreen;
+}

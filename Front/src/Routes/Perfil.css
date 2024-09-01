@@ -1,0 +1,30 @@
+.perfilUsuario {
+    color: black;
+    background-color: #f6e8ed;
+}
+
+.perfilUsuario div{
+    padding: 1vw;
+}
+
+.imagenPerfil{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    display: flex;
+}
+
+.imagenPerfil img{
+    width: auto;
+    height: 100%; 
+    object-fit: contain; 
+  }
+
+  .entregaDevolucion div p{
+    height: 1px;
+  }
+
+  .entregaDevolucioncelda{
+    height: 100px;
+  }
